@@ -7,7 +7,7 @@ Quickstart
 
 Run the following commands to bootstrap your environment
 
-    git clone https://github.com/michaeldao/vicSafe
+    git clone https://github.com/nugyn/vicSafe
     cd vicSafe
     pip install -r requirements/dev.txt
     cp .env.example .env
@@ -47,4 +47,6 @@ To deploy::
 
 In your production environment, make sure the ``FLASK_DEBUG`` environment
 variable is unset or is set to ``0``.
+
+
 
